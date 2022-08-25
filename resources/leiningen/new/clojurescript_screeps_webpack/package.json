@@ -1,0 +1,21 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "shadow-cljs": "2.19.9",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "build": "npx shadow-cljs compile screeps",
+    "bundle": "npx webpack",
+    "build-watch": "npx shadow-cljs watch screeps",
+    "bundle-watch": "npx webpack watch"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "webpack": "^5.74.0"
+  }
+}

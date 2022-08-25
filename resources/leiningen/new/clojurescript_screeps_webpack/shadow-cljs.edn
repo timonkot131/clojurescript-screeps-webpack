@@ -1,0 +1,13 @@
+;; shadow-cljs configuration
+{
+ :lein true
+ :builds
+ {
+  :screeps
+  {
+   :target :npm-module
+   :output-dir "build"
+   :entries [{{namespace}}]
+   }
+  }
+ }
