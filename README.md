@@ -34,7 +34,7 @@
     entry: ... ,
     output: {
         path: "<your path>", // as example, you can change it to your screeps local folder,
-                             // you can get it by selecting "Scripts tab" and then clicking on "Open local folder"
+                             // you can get the path by selecting "Scripts tab" and then clicking on "Open local folder"
         filename: "main.js",
     }
   ```
