@@ -13,7 +13,7 @@
   npm install
   ```
 # Usage
-  You can run these commands which are mostly ``npx shadow-cljs build/watch`` and ``npx webpack`` aliases
+  You can run some of these commands which are mostly ``npx shadow-cljs build/watch`` and ``npx webpack`` aliases
   ### Build project
   ```
   npm run build
