@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "core-js": "^3.24.1",
+    "source-map": "^0.6.1",
+    "source-map-loader": "^4.0.0",
     "webpack": "^5.74.0"
   }
 }

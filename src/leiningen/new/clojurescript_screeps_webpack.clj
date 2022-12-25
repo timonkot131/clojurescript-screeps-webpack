@@ -3,7 +3,6 @@
             [leiningen.core.main :as main]))
 
 (def render (tmpl/renderer "clojurescript_screeps_webpack"))
-
 (defn clojurescript-screeps-webpack
   "FIXME: write documentation"
   [name]
