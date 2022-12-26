@@ -2,7 +2,10 @@
   This project has been developed with intent to create a tool that bundles your screeps code into a single file without using advanced optimizations provided by [Сlosure Compiler](https://developers.google.com/closure/compiler),
   and solve the problem with unrecognizable and obfuscated runtime errors to make them understandable.
   
-  The project uses [shadow-cljs](https://github.com/thheller/shadow-cljs) to compile code and [webpack](https://github.com/webpack/webpack) with [babel-loader](https://webpack.js.org/loaders/babel-loader/) for bundling
+  The project uses: 
+  - [shadow-cljs](https://github.com/thheller/shadow-cljs): Code compilation
+  - [webpack](https://github.com/webpack/webpack) with [babel-loader](https://webpack.js.org/loaders/babel-loader/): Bundling
+  - [clojurescript-screeps-sourcemap](https://github.com/timonkot131/clojurescript-screeps-sourcemap): Individual package for error pre-processing in screeps
   
 # Installation
   First you need to have [leiningen](https://leiningen.org/), [node-js](https://nodejs.org/en/)
