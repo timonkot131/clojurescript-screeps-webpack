@@ -9,7 +9,13 @@
   
 # Installation
   First you need to have [leiningen](https://leiningen.org/), [node-js](https://nodejs.org/en/)
-  and java SDK installed, then go to folder with your projects and run:
+  and java SDK installed, then install the template:
+  ```
+  git clone https://github.com/timonkot131/clojurescript-screeps-webpack.git
+  cd clojurescript-screeps-webpack
+  lein install
+  ```
+  After that, you can create your project
   ```
   lein new org.clojars.timonkot13/clojurescript-screeps-webpack project-name
   cd project-name
